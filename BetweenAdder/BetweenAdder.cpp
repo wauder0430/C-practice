@@ -1,5 +1,4 @@
-ï»¿// BetweenAdder.cpp : ì´ íŒŒì¼ì—ëŠ” 'main' í•¨ìˆ˜ê°€ í¬í•¨ë©ë‹ˆë‹¤. ê±°ê¸°ì„œ í”„ë¡œê·¸ë¨ ì‹¤í–‰ì´ ì‹œì‘ë˜ê³  ì¢…ë£Œë©ë‹ˆë‹¤.
-//
+
 
 #include <iostream>
 
@@ -7,7 +6,7 @@ int main()
 {
     int val1, val2;
     int result = 0;
-    std::cout << "ë‘ ê°œì˜ ìˆ«ì ì…ë ¥";
+    std::cout << "µÎ °³ÀÇ ¼ıÀÚ ÀÔ·Â: ";
     std::cin >> val1 >> val2;
 
     if (val1 < val2) {
@@ -19,6 +18,6 @@ int main()
             result += i;
     }
 
-    std::cout << "ë‘ ìˆ˜ ì‚¬ì´ì˜ ì •ìˆ˜ í•©: " << result << std::endl;
+    std::cout << "µÎ ¼ö »çÀÌÀÇ Á¤¼ö ÇÕ: " << result << std::endl;
     return 0;
 }
